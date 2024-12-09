@@ -8,7 +8,11 @@ int main() {
   int sum = numberOne + numberTwo;
   cout << "you have " << numberOne << "and" << numberTwo;
   cout << "your sum is " << sum;
- // thank you 
- cout << "Thank you"
+ // thank you
+  string name;
+  cout << "Thank you";
+  cout << "enter your name";
+  cin >> name;
+
   return 0;
 }
